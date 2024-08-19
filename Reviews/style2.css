@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Jura', sans-serif;
+}
+
+
+/* Navbar Start */
+
+
+.nav_style{
+	background: #fff;
+	box-shadow: 0 10px 30px 0 rgba(126, 34, 206, 0.055);
+}
+
+
+.navbar-brand img {
+	width: 70px;
+	
+}
+
+
+
+.call-icon{
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.5); 
+}
+
+.call-icon:hover{
+	color: #ff5c35;
+	text-decoration: none;
+}
+
+.call-icon i{
+	color:  #4bbc45;
+}
+
+
+.whatsapp-icon{
+	color: rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+}
+
+.whatsapp-icon:hover{
+	color: #ff5c35;
+	text-decoration: none;
+}
+
+.whatsapp-icon i{
+	font-size: 23px;
+	font-weight: bold;
+	color: #4bbc45;
+}
+
+.book-now{
+	text-decoration: none;
+	color: #ff5c35;
+	margin-left: 250px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.book-now:hover{
+	text-decoration: none;
+	color: #7f7f7f;
+}
+
+.navbar-nav{
+	margin-left: 40%;
+}
+
+.navbar-nav li a{
+	
+	font-size: 17px;
+	font-weight: 600;
+	letter-spacing: 1.25px;
+	position: relative;
+}
+
+
+.navbar-nav li a:before{
+	content: '';
+	position: absolute;
+	top: 100%;
+	bottom: 50%;
+	width: 0%;
+	height: 3px;
+	background: #ff5c35 !important;
+	transition: all 0.3s linear;
+}
+
+
+.navbar-nav li a:hover:before{
+	width: 90%;
+}
+
+
+.navbar-nav li a:hover{
+	color: #ff5c35 !important;
+}
+
+
+.navbar-nav li .active{
+	color: #ff5c35 !important;
+}
+
+
+@media(max-width:1000px){
+	.navbar-nav{
+		margin-top: 50px !important;
+	}
+
+	.order-now .book-now{
+		align-items: center;
+	}
+
+	.navbar-nav li a:hover:before{
+		width: 0%;
+	}
+}
+
+@media(max-width:689px){
+	.book-now{margin: 25px;
+}
+
+}
+
+/* Navbar End */
+
+/* Review Slider Start */
+
+.review-slider{
+	background-color: #f9f9f9;
+}
+
+.important{
+	color: #ff5c35;
+}
+
+
+.submit-btn{
+	height: 40px;
+	width: 180px;
+	background-color: #ff5c35;
+	color: #fff;
+	border: none;
+	font-size: 20px;
+}
+
+.submit-btn:hover{
+	background-color: #fff;
+	color: #ff5c35;
+	border: 1px solid #ff5c35;
+	transition: 0.3s linear;
+}
+
+
+/* Review Slider End */
+
+
+/* Second Image Slider Start */
+
+.some-photo{
+	color: #183153;
+}
+
+.custom-thumbnail{
+	border: 2px solid #ff5c35;
+	height: 250px; width: 100%;
+}
+
+ .testimonial {
+      text-align: center;
+      margin: 20px;
+    }
+
+/* Second Image Slider End */
+
+/* Footer Start */
+
+.footer{
+	background-color: #ff5c35;
+}
+
+
+.col-footer{
+	padding: 15px;
+	font-size: 16px;
+	height: 50px;
+	box-sizing: border-box;
+}
+
+/* Footer End */

@@ -1,0 +1,726 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!---- Custom CSS ---->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Neo Bike Rental</title>
+  <!---- Tittle Icon ---->
+  <link rel="icon" type="image/x-icon" sizes="" href="img/favicon.png">
+
+  <!-- fontawsome---->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- Google font style -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!---- Navbar Start ---->
+
+  <header class="container-fluid mx-auto nav_style">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid navbar-container">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" class="img-fluid"></a>
+
+
+        <div class="icon-div">
+
+          <p class="icon-mail m-1">
+
+            <a class="call-icon" href="tel:+918004897142"><i class="fa-solid fa-phone"></i> &nbsp +91 8004897142</a>
+            <br>
+            <a class="whatsapp-icon" target="blank" href="https://wa.me/+918004897142"><i
+                class="fa-brands fa-whatsapp"></i>&nbsp +91 8004897142</a>
+          </p>
+        </div>
+
+        <div class="order-now">
+          <a class="book-now" href="https://forms.gle/GSe8vKGtzi4ru5y88" target="blank">Book Now</a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bikes">Bike</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Reviews/INDEX2.HTML">Rating</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-us">Contact Us</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+    </div>
+    </div>
+
+  </header>
+
+  <!---- Navbar End ---->
+
+  <!---- Slider Start ---->
+
+  <div class="container-fluid slider-container">
+
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade my-2" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+
+
+        <!---- Other Coding Start ---->
+
+        <div class="container col-md-12 col-sm-12 mx-auto other-container">
+
+          <div class="row col-sm-auto other-row">
+
+            <div class="col-md-3 col-sm-auto">
+              <label class="from">FROM</label>
+              <select class="form-control col-sm-auto" id="validationCustom04" required>
+                <option selected>From Your Location</option>
+                <option id="option">Neo Bike Rental</option>
+
+              </select>
+            </div>
+
+            <div class="col-md-3 col-sm-auto">
+              <label class="from">TO</label>
+              <select class="form-control col-sm-auto" id="validationCustom04" required>
+                <option selected>To Your Location</option>
+                <option id="option">Mirzapur</option>
+                <option id="option">Jaunpur</option>
+                <option id="option">Babatpur</option>
+                <option id="option">Kerakat</option>
+                <option id="option">Umarah Temple</option>
+                <option id="option">Sarnath</option>
+                <option id="option">Markande Mahadev</option>
+                <option id="option">Lakhaniya dari</option>
+                <option id="option">Devdari</option>
+                <option id="option">Bindra</option>
+                <option id="option">BHU Lanka</option>
+                <option id="option">Bhadohi</option>
+                <option id="option">Chandoli</option>
+                <option id="option">Ramnagar Fort</option>
+                <option id="option">Azamgarh</option>
+              </select>
+            </div>
+
+            <div class="col-md-3 col-sm-auto">
+              <label class="from">DATE</label>
+              <div>
+                <input min="2024-01-01" max="2024-12-31" type="date" class="form-control col-sm-auto" id="date-icon">
+              </div>
+            </div>
+
+            <div class="d-grid gap-2 col-3">
+              <br>
+              <a target="blank" href="https://wa.me/+918004897142?text=I%20want%20to%20booking">
+                <button class="submit-btn book-contact-btn" type="button"> Ride Now </button>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <!---- Other Coding End ---->
+
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+
+
+      <div class="carousel-inner border col-sm-auto">
+
+        <div class="carousel-item active">
+          <img src="img/image slider one.jpg" class="d-block w-100" alt=" image not available">
+
+          <div class="carousel-caption book-comfortable d-none d-block">
+
+          </div>
+
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/image slider two.jpg" class="d-block w-100" alt="bike image not available">
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/image slider three.jpg" class="d-block w-100" alt="bike image not available">
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <!---- Slider End ---->
+
+  <!---- Bike section Start ---->
+
+  <div class="container-fluid popular-container my-3" id="bikes">
+    <div class="row mx-auto">
+
+      <h1 class="popular-bike">This bike is <span class="very-popular">very popular</span></h1>
+
+      <p class="feel-free" align="center">Feel free to choose your favorite</p>
+
+      <div class="col-md-3 col-sm-6 responsive p-3">
+        <div class="image gallery">
+          <img class="img-fluid bike-img" src="img/scooty1.png">
+          <div class="desc">
+            <!-- <button class="submit-btn" type="button">
+          Submit
+          </button>
+        -->
+          </div>
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">Activa Scooty</h4>
+          <p class="card-text">
+            Running <small class="text-muted m-4"> &nbsp <b> 31947 km</b></small>
+            <br>
+            Engine  <small class="text-muted m-4"> &nbsp &nbsp&nbsp <b> 110 cc</b></small>
+            <br>
+            Type  <small class="text-muted m-4"> &nbsp &nbsp &nbsp &nbsp &nbsp <b> 5G</b></small>
+            <br>
+            Color  <small class="text-muted m-5"> &nbsp&nbsp <b> Black</b></small>
+            <br>
+            Registration  <small class="text-muted">&nbsp<b> 25-Feb-2020</b></small>
+          </p>
+          <a href="https://wa.me/+918004897142?/img/scooty1.png"><button class="submit-btn"
+              type="button">Book Now</button></a>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 responsive p-3">
+        <div class="image gallery">
+          <img class="img-fluid bike-img" src="img/scooty2.png">
+          <div class="desc">
+            <!--
+          <button class="submit-btn" type="button">
+          Submit
+          </button>
+          -->
+          </div>
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">Activa Scooty</h4>
+          <p class="card-text">
+            Running <small class="text-muted m-4"> &nbsp <b> 34353 km</b></small>
+            <br>
+            Engine  <small class="text-muted m-4"> &nbsp &nbsp&nbsp <b> 110 cc</b></small>
+            <br>
+            Type  <small class="text-muted m-4"> &nbsp &nbsp &nbsp &nbsp &nbsp <b> 3G</b></small>
+            <br>
+            Color  <small class="text-muted m-5"> &nbsp&nbsp <b> Red Metallic</b></small>
+            <br>
+            Registration  <small class="text-muted">&nbsp<b> 04-Jan-2016</b></small>
+          </p>
+          <a href="https://wa.me/+918004897142?text=I%20want%20to%20booking"><button class="submit-btn"
+              type="button">Book Now</button></a>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 responsive p-3">
+        <div class="image gallery">
+          <img class="img-fluid bike-img" src="img/scooty3.png">
+          <div class="desc">
+            <!--
+          <button class="submit-btn" type="button">
+          Submit
+          </button>
+          -->
+          </div>
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">Activa Scooty</h4>
+          <p class="card-text">
+            Running <small class="text-muted m-4"> &nbsp <b> 42167 km</b></small>
+            <br>
+            Engine  <small class="text-muted m-4"> &nbsp &nbsp&nbsp <b> 110 cc</b></small>
+            <br>
+            Type  <small class="text-muted m-4"> &nbsp &nbsp &nbsp &nbsp &nbsp <b> 3G</b></small>
+            <br>
+            Color  <small class="text-muted m-5"> &nbsp&nbsp <b> White</b></small>
+            <br>
+            Registration  <small class="text-muted">&nbsp<b> 16-Aug-2010</b></small>
+          </p>
+          <a href="https://wa.me/+918004897142?text=I%20want%20to%20booking"><button class="submit-btn"
+              type="button">Book Now</button></a>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 responsive p-3">
+        <div class="image gallery">
+          <img class="img-fluid bike-img" src="img/scooty4.png">
+          <div class="desc">
+            <!--
+          <button class="submit-btn" type="button">
+          Submit
+          </button>
+          -->
+          </div>
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">Activa Scooty</h4>
+          <p class="card-text">
+            Running <small class="text-muted m-4"> &nbsp <b> 36657 km</b></small>
+            <br>
+            Engine  <small class="text-muted m-4"> &nbsp &nbsp&nbsp <b> 125 cc</b></small>
+            <br>
+            Type  <small class="text-muted m-4"> &nbsp &nbsp &nbsp &nbsp &nbsp <b> 3G</b></small>
+            <br>
+            Color  <small class="text-muted m-5"> &nbsp&nbsp <b> Blue</b></small>
+            <br>
+            Registration  <small class="text-muted">&nbsp<b> 17-Aug-2016</b></small>
+          </p>
+          <a href="https://wa.me/+918004897142?text=I%20want%20to%20booking"><button class="submit-btn"
+              type="button">Book Now</button></a>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 responsive my-3 p-3">
+        <div class="image gallery">
+          <img class="img-fluid bike-img" src="img/9.png">
+          <div class="desc">
+            <!--
+          <button class="submit-btn" type="button">
+          Submit
+          </button>
+          -->
+          </div>
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">Activa Scooty</h4>
+          <p class="card-text">Reduction in bike maintenance and repair expenses.</p>
+          <a href="https://wa.me/+918004897142?text=I%20want%20to%20booking"><button class="submit-btn"
+              type="button">Book Now</button></a>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 responsive my-3 p-3">
+        <div class="image gallery">
+          <img class="img-fluid bike-img" src="img/8.png">
+          <div class="desc">
+            <!--
+          <button class="submit-btn" type="button">
+          Submit
+          </button>
+          -->
+          </div>
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">Activa Scooty</h4>
+          <p class="card-text">Gives you a chance to tour the city at low cost.</p>
+          <a href="https://wa.me/+918004897142?text=I%20want%20to%20booking"><button class="submit-btn"
+              type="button">Book Now</button></a>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 responsive my-3 p-3">
+        <div class="image gallery">
+          <img class="img-fluid bike-img" src="img/7.png">
+          <div class="desc">
+            <!--
+          <button class="submit-btn" type="button">
+          Submit
+          </button>
+          -->
+          </div>
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">Activa Scooty</h4>
+          <p class="card-text">Rental scooters are ready for your journey</p>
+          <a href="https://wa.me/+918004897142?text=I%20want%20to%20booking"><button class="submit-btn"
+              type="button">Book Now</button></a>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 responsive my-3 p-3">
+        <div class="image gallery">
+          <img class="img-fluid bike-img" src="img/6.png">
+          <div class="desc">
+            <!--
+          <button class="submit-btn" type="button">
+          Submit
+          </button>
+          -->
+          </div>
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">Activa Scooty</h4>
+          <p class="card-text">Booking a scooter from neo bike rental very easy.</p>
+          <a href="https://wa.me/+918004897142?text=I%20want%20to%20booking"><button class="submit-btn"
+              type="button">Book Now</button></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!---- Bike Section End ---->
+
+
+
+
+  <!----Customer Rating Start ---->
+  <div class="container-fluid rating-container my-3" id="rating">
+    <div class="row text-center mx-auto">
+
+      <h1 class="customer-rating"><span class="customer">Customer</span> Rating</h1>
+      <p class="feel-free text-center">Give us customer reviews</p>
+
+      <div class="col-sm-12 col-md-4 border">
+        <div class="testimonial-box p-3">
+          <img src="Reviews/img/customer.png" class="img-fluid border border-primary p-1 rounded-circle"
+            alt="Praveen Singh" width="150">
+          <div class="ratings-icons">
+            <i class="fa-regular fa-star" style="color:red;"></i>
+            <i class="fa-regular fa-star" style="color:red;"></i>
+            <i class="fa-regular fa-star" style="color:red;"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>Praveen Singh</h4>
+          <p>I had one of the best two wheeler renting experience with NEO bike rental service. Convinent pickup and
+            drop. Hassle free service.</p>
+
+        </div>
+      </div> <!-- End Col -->
+
+      <div class="col-sm-12 col-md-4 border">
+        <div class="testimonial-box p-3">
+          <img src="Reviews/img/customer.png" class="img-fluid border border-primary p-1 rounded-circle"
+            alt="Bharti Pathak" width="150">
+          <div class="ratings-icons">
+            <i class="fa-regular fa-star" style="color:red;"></i>
+            <i class="fa-regular fa-star" style="color:red;"></i>
+            <i class="fa-regular fa-star" style="color:red;"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>Bharti Pathak</h4>
+          <p>Best service. Good vehicles. Fast pick up and drop service.</p>
+
+        </div>
+      </div> <!-- End Col -->
+
+      <div class="col-sm-12 col-md-4 border">
+        <div class="testimonial-box p-3">
+          <img src="Reviews/img/customer.png" class="img-fluid border border-primary p-1 rounded-circle"
+            alt="Ashwani Singh" width="150">
+          <div class="ratings-icons">
+            <i class="fa-regular fa-star" style="color:red;"></i>
+            <i class="fa-regular fa-star" style="color:red;"></i>
+            <i class="fa-regular fa-star" style="color:red;"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h4>Ashwani Singh</h4>
+          <p>Nice service, Nice maintenance of vehicles. Well maintained. Good service provided by Ramesh Kumar</p>
+
+        </div>
+      </div> <!-- End Col -->
+
+      <div class="col-md-6 mx-auto p-3">
+        <a href="Reviews/INDEX2.HTML">
+          <button class="submit-btn" type="button">
+            Show more
+          </button>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!----Customer Rating End ---->
+
+  <!----About Section Start ---->
+
+
+  <div class="container-fluid my-3 text-white" id="about-us">
+    <div class="row about-row">
+      <h1 class="text-center about my-2">About Us
+        <hr / class="mx-auto" style="color: #fff; width: 25%;">
+      </h1>
+
+      <div class="col-md-8 my-3">
+        <p class="fs-5 col-md-10">
+          <span class="Welcome fs-3"><em>Welcome to Neo Bike Rental</span> your go-to destination for seamless and
+          reliable rentals. We offer a diverse range of high-quality vehicles and equipment, meticulously maintained for
+          your convenience. Our commitment to exceptional customer service sets us apart, ensuring a smooth and
+          stress-free experience every time. Whether you're planning a trip, project, or event, choose <span
+            class="fs-3">Neo Bike Rental</span> for top-notch rentals that exceed expectations.</em>
+        </p>
+
+      </div>
+      <div class="col-md-4 col-sm-12 my-3">
+        <img src="img/33.jpg" alt="Company Logo" class="img-fluid img-thumbnail">
+      </div>
+
+    </div>
+  </div>
+
+
+  <!----About Section End ---->
+
+
+  <!---- Contact Form Start ---->
+  <div class="container-fluid contact-container my-3" id="contact-us">
+    <div class="row contact-row col-md-8 col-sm-12 mx-auto">
+
+      <div class="panel contact-panel">
+
+        <div class="panel-heading text-center">
+          <h1 class="contact-us"><span>Contact</span> Us</h1>
+          <p class="feel-free">Feel free to contact us any time.</p>
+        </div>
+
+        <div class="panel-body">
+          <form action="mailto:neobikesrental@gmail.com" method="post" enctype="text">
+
+            <div class="form-group">
+              <label for="name">Name<span class="text-danger">*</span></label>
+              <input type="text" name="name" placeholder="Enter Your Name" class="form-control" id="name" required />
+            </div>
+
+            <br>
+
+            <div class="form-group">
+              <label for="mob">Phone<span class="text-danger">*</span></label>
+              <input type="number" name="mob" placeholder="Enter Your Phone" class="form-control" id="name" required />
+            </div>
+
+            <br>
+
+            <div class="form-group">
+              <label for="email">E-mail<span class="text-danger">*</span></label>
+              <input type="email" name="email" placeholder="Enter Your Mail" class="form-control" id="name" required />
+            </div>
+
+            <br>
+
+            <div class="form-group">
+              <label for="sms">Message<span class="text-danger">*</span></label>
+              <textarea name="sms" rows="5" class="form-control" placeholder="Enter Your Message" required></textarea>
+            </div>
+
+            <br>
+
+            <input class="submit-btn contact-btn" type="submit" value="Submit">
+
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!---- Contact Form End ---->
+
+  <!---- Social Media Start ---->
+
+  <div class="container-fluid my-3">
+    <div class="row">
+
+      <div class="col-11 col-md-10 mx-auto">
+        <div class="row justify-content-around gy-5">
+          <div
+            class="col-lg-3 col-md-3 col-10 d-flex align-items-center flex-column justify-content-center div-envelope">
+            <p><a target="blank" href="mailto:neobikesrental@gmail.com"><i class="fa-regular fa-envelope"
+                  style="color: #ff5c35;"></i></a></p>
+            <div class="email-address">E-mail Address</div>
+            <p class="email-text"><a href="mailto:neobikesrental@gmail.com">neobikesrental@gmail.com </a></p>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-3 col-10 d-flex align-items-center flex-column justify-content-center whatsapp-div">
+            <p> <a target="blank" href="https://wa.me/+918004897142"><i class="fa-brands fa-whatsapp"
+                  style="color: #ff5c35;"></i></a> </p>
+            <div class="whatsapp">Whatsapp</div>
+            <p class="whatsapp-text"><a href="https://wa.me/+918004897142">+91 8004897142</a> </p>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-3 col-10 d-flex align-items-center flex-column justify-content-center location-div">
+            <p><a target="blank" href="https://maps.app.goo.gl/CiM64iPf7fk7HnY5A"><i class="fa-solid fa-location-dot"
+                  style="color: #ff5c35;"></i></a></p>
+            <div class="location">Location</div>
+            <p class="location-text text-center"> SA 2 276,Choota Lalpur,Bhakti Nagar Colony,Varanasi, U.P.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-------------------------------
+<div class="container-fluid main-container my-2">
+<div class="row mx-auto">
+
+<div class="col-md-4 col-sm-12 mx-auto col-envelope p-4">
+  <div class="col-md icon-envelope">
+    <i class="fa-solid fa-envelope"></i>
+  </div>
+<div class="email-address" align="center">E-mail Address</div>
+  <p class="icon-text" align="center">abc@gmail.com</p>
+</div>
+
+<div class="col-md-4 col-sm-12 mx-auto whatsapp-col p-5">
+  <div class="icon-whatsapp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </div>
+<div class="whatsapp" align="center">Whatsapp</div>
+  <address class="whatsapp-text" align="center">+91 6351689753</address>
+</div>
+
+<div class="col-md-4 col-sm-12 mx-auto location-col p-5">
+  <div class="icon-location">
+     <i class="fa-solid fa-location-dot"></i>
+  </div>
+<div class="city" align="center">Location</div>
+  <address class="city-text" align="center">Sabalgarh</address>
+</div>
+ 
+</div>
+</div>
+
+----------------->
+
+
+
+  <!---- Social Media End ---->
+
+  <!-- Social Link Start -->
+  <div class="container-fluid my-3">
+    <div class="row justify-content-center">
+
+      <div class="col-lg-1 col-2 social_link">
+        <a target="blank" title="Facebook" href="#">
+          <i class="fa-brands fa-2x fa-square-facebook"></i>
+        </a>
+      </div>
+
+      <div class="col-lg-1 col-2 social_link">
+        <a target="blank" title="Linkedin" href="#">
+          <i class="fa-brands fa-2x fa-linkedin"></i>
+        </a>
+      </div>
+
+      <div class="col-lg-1 col-2 social_link">
+        <a target="blank" title="Instagram" href="#">
+          <i class="fa-brands fa-2x fa-square-instagram"></i>
+        </a>
+      </div>
+
+      <div class="col-lg-1 col-2 social_link">
+        <a target="blank" title="Whatsapp" href="https://wa.me/+918004897142">
+          <i class="fa-brands fa-2x fa-square-whatsapp"></i>
+        </a>
+      </div>
+
+      <div class="col-lg-1 col-2 social_link">
+        <a target="blank" title="Twitter" href="#">
+          <i class="fa-brands fa-2x fa-square-x-twitter"></i>
+        </a>
+      </div>
+
+    </div>
+  </div>
+  <!-- Social link End -->
+
+  <!---- Support Chat Start ---->
+
+  <div class="floating-container" id="support">
+    <div class="floating-button"><i class="fa-solid fa-headset"></i></div>
+    <div class="element-container">
+      <span class="float-element">
+        <a href="tel:+918004897142"><i class=" text-white fa-solid fa-1x fa-phone"></i></a>
+      </span>
+
+      <span class="float-element">
+        <a href="https://wa.me/+918004897142"><i class=" text-white fa-brands fa-1x fa-whatsapp my-1"></i></a>
+      </span>
+    </div>
+  </div>
+
+  <!---- Support Chat End ---->
+
+  <!---- Footer Start ---->
+
+  <div class="container-fluid footer">
+    <div class="row">
+      <div class="col-12 col-footer text-white" align="center"> &copy neobike rental 2024 | All Rights Reserved.</div>
+    </div>
+
+  </div>
+
+  <!---- Footer End ---->
+
+  <!-----Developer Details-----
+
+  <div class="container d-none">
+    Name:- Shubham Jaga
+    Mob.:- +916351689753
+    Mail:- shubhamjaga001@gmail.com
+  </div>
+
+----------------------------->
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+
+</body>
+
+</html>
